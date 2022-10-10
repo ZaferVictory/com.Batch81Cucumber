@@ -1,9 +1,9 @@
 pages\AmazonPage.class
 stepDefinitions\AmazonStepDefinition.class
 stepDefinitions\MakasSearchDefinition.class
-utilities\ConfigReader.class
 runners\Runner.class
 utilities\ReusableMethods$1.class
 utilities\Driver.class
+utilities\ConfigReader.class
 pages\googlePage.class
 utilities\ReusableMethods.class
