@@ -1,9 +1,11 @@
 pages\AmazonPage.class
 stepDefinitions\AmazonStepDefinition.class
+stepDefinitions\Practise_TC_07steps.class
 stepDefinitions\MakasSearchDefinition.class
 runners\Runner.class
 utilities\ReusableMethods$1.class
 utilities\Driver.class
+pages\PractiseTC07Page.class
 utilities\ConfigReader.class
 pages\googlePage.class
 utilities\ReusableMethods.class
