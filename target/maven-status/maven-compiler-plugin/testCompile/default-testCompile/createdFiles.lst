@@ -5,7 +5,9 @@ stepDefinitions\MakasSearchDefinition.class
 runners\Runner.class
 utilities\ReusableMethods$1.class
 utilities\Driver.class
+pages\BrcPage.class
 pages\PractiseTC07Page.class
 utilities\ConfigReader.class
+stepDefinitions\BlueRentaCarStepDefinition.class
 pages\googlePage.class
 utilities\ReusableMethods.class
