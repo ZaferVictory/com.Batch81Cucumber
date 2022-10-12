@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = "stepDefinitions",
-        tags = "@all",// tum classı aynı anda calıstırmak ıstersek "@All" derız.
+        tags = "@PractiseAmazon01",// tum classı aynı anda calıstırmak ıstersek "@All" derız.
         dryRun = false
 )
 public class Runner {

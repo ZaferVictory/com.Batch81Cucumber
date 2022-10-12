@@ -10,6 +10,8 @@ import pages.BrcPage;
 import utilities.ConfigReader;
 import utilities.Driver;
 
+import static org.bouncycastle.cms.RecipientId.password;
+
 public class BlueRentaCarStepDefinition {
     BrcPage brcPage=new BrcPage();
     Actions actions=new Actions(Driver.getDriver());
@@ -49,4 +51,14 @@ public class BlueRentaCarStepDefinition {
     }
 
 
+    @And("gecersiz {string} girer")
+    public void gecersizGirer(String email) {
+        brcPage.email.sendKeys(email);
+
+    }
+
+    @And("supersize {string} girildi")
+    public void supersizeGirildi(String password) {
+        actions.sendKeys(Keys.TAB).sendKeys(password);
+    }
 }
