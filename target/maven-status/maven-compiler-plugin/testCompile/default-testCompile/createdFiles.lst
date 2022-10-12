@@ -1,6 +1,7 @@
 stepDefinitions\AmazonStepDefinition.class
 utilities\ReusableMethods$1.class
 pages\BrcPage.class
+stepDefinitions\HepsiBuradaStepDefinition.class
 stepDefinitions\BlueRentaCarStepDefinition.class
 utilities\ReusableMethods.class
 pages\AmazonPage.class
@@ -11,3 +12,4 @@ utilities\Driver.class
 pages\PractiseTC07Page.class
 utilities\ConfigReader.class
 pages\googlePage.class
+stepDefinitions\odev.class
