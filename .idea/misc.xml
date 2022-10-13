@@ -8,12 +8,20 @@
           <option name="goal" value="install" />
           <option name="projectPath" value="$PROJECT_DIR$/pom.xml" />
         </MavenCompilerTask>
+        <MavenCompilerTask>
+          <option name="goal" value="org.apache.maven.plugins:maven-install-plugin:2.4:help" />
+          <option name="projectPath" value="$PROJECT_DIR$/pom.xml" />
+        </MavenCompilerTask>
       </set>
     </option>
     <option name="afterCompileTasks">
       <set>
         <MavenCompilerTask>
           <option name="goal" value="install" />
+          <option name="projectPath" value="$PROJECT_DIR$/pom.xml" />
+        </MavenCompilerTask>
+        <MavenCompilerTask>
+          <option name="goal" value="org.apache.maven.plugins:maven-install-plugin:2.4:help" />
           <option name="projectPath" value="$PROJECT_DIR$/pom.xml" />
         </MavenCompilerTask>
       </set>
