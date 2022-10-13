@@ -1,10 +1,10 @@
 stepDefinitions\AmazonStepDefinition.class
+stepDefinitions\PracticeTestPageStepDefs.class
 utilities\ReusableMethods$1.class
+pages\HerOkuHtmlPages.class
 pages\BrcPage.class
 stepDefinitions\HepsiBuradaStepDefinition.class
 stepDefinitions\PracticeAmazonstepDef.class
-pages\HerOkuPages.class
-stepDefinitions\HerokuAppDefinition.class
 stepDefinitions\BlueRentaCarStepDefinition.class
 stepDefinitions\DataBaseOutline.class
 utilities\ReusableMethods.class
