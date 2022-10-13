@@ -2,6 +2,7 @@ stepDefinitions\AmazonStepDefinition.class
 stepDefinitions\PracticeTestPageStepDefs.class
 utilities\ReusableMethods$1.class
 pages\HerOkuHtmlPages.class
+pages\HerokuPages.class
 pages\BrcPage.class
 stepDefinitions\HepsiBuradaStepDefinition.class
 stepDefinitions\PracticeAmazonstepDef.class
@@ -15,5 +16,6 @@ runners\Runner.class
 utilities\Driver.class
 pages\PractiseTC07Page.class
 utilities\ConfigReader.class
+stepDefinitions\HerokuStepDefinition.class
 pages\DataBasePage.class
 pages\googlePage.class

@@ -2,6 +2,7 @@ C:\Users\TR\IdeaProjects\com.Batch81Cucumber\src\test\java\pages\googlePage.java
 C:\Users\TR\IdeaProjects\com.Batch81Cucumber\src\test\java\pages\BrcPage.java
 C:\Users\TR\IdeaProjects\com.Batch81Cucumber\src\test\java\stepDefinitions\DataBaseOutline.java
 C:\Users\TR\IdeaProjects\com.Batch81Cucumber\src\test\java\stepDefinitions\MakasSearchDefinition.java
+C:\Users\TR\IdeaProjects\com.Batch81Cucumber\src\test\java\pages\HerokuPages.java
 C:\Users\TR\IdeaProjects\com.Batch81Cucumber\src\test\java\stepDefinitions\PracticeAmazonstepDef.java
 C:\Users\TR\IdeaProjects\com.Batch81Cucumber\src\test\java\stepDefinitions\Practise_TC_07steps.java
 C:\Users\TR\IdeaProjects\com.Batch81Cucumber\src\test\java\stepDefinitions\HepsiBuradaStepDefinition.java
@@ -12,6 +13,7 @@ C:\Users\TR\IdeaProjects\com.Batch81Cucumber\src\test\java\stepDefinitions\BlueR
 C:\Users\TR\IdeaProjects\com.Batch81Cucumber\src\test\java\runners\Runner.java
 C:\Users\TR\IdeaProjects\com.Batch81Cucumber\src\test\java\stepDefinitions\AmazonStepDefinition.java
 C:\Users\TR\IdeaProjects\com.Batch81Cucumber\src\test\java\utilities\ReusableMethods.java
+C:\Users\TR\IdeaProjects\com.Batch81Cucumber\src\test\java\stepDefinitions\HerokuStepDefinition.java
 C:\Users\TR\IdeaProjects\com.Batch81Cucumber\src\test\java\utilities\ConfigReader.java
 C:\Users\TR\IdeaProjects\com.Batch81Cucumber\src\test\java\pages\PractiseTC07Page.java
 C:\Users\TR\IdeaProjects\com.Batch81Cucumber\src\test\java\pages\HerOkuHtmlPages.java
