@@ -2,6 +2,7 @@ stepDefinitions\AmazonStepDefinition.class
 stepDefinitions\PracticeTestPageStepDefs.class
 utilities\ReusableMethods$1.class
 pages\HerOkuHtmlPages.class
+pages\GuruPage.class
 pages\HerokuPages.class
 pages\BrcPage.class
 stepDefinitions\HepsiBuradaStepDefinition.class
@@ -19,3 +20,4 @@ utilities\ConfigReader.class
 stepDefinitions\HerokuStepDefinition.class
 pages\DataBasePage.class
 pages\googlePage.class
+stepDefinitions\GuruStepDefinition.class
