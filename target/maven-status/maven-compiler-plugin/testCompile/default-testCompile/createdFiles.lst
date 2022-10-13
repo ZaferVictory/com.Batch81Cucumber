@@ -3,7 +3,10 @@ utilities\ReusableMethods$1.class
 pages\BrcPage.class
 stepDefinitions\HepsiBuradaStepDefinition.class
 stepDefinitions\PracticeAmazonstepDef.class
+pages\HerOkuPages.class
+stepDefinitions\HerokuAppDefinition.class
 stepDefinitions\BlueRentaCarStepDefinition.class
+stepDefinitions\DataBaseOutline.class
 utilities\ReusableMethods.class
 pages\AmazonPage.class
 stepDefinitions\Practise_TC_07steps.class
@@ -12,4 +15,5 @@ runners\Runner.class
 utilities\Driver.class
 pages\PractiseTC07Page.class
 utilities\ConfigReader.class
+pages\DataBasePage.class
 pages\googlePage.class
