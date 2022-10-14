@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="36.634">
+    <testcase classname="Unknown" name="TC02 Parametre kullaniminda ConfigReader Kullanimi" time="14.42">
+        <system-out>
+            <![CDATA[Given Kullanici "google" sayfasina gider....................................passed
+Then kullanici 3 saniye bekler..............................................passed
+When sonuclarin "google" icerdigini test eder...............................passed
+And sayfayi kapatir.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Amazon Search" name="TC03 kullanıcı amazonda iphone aratır" time="21.578">
+        <system-out>
+            <![CDATA[Given Kullanici amazon sayfasina gider......................................passed
+Then kullanici iphone aratir................................................passed
+And sonuclarin iphone icerdigini test eder..................................passed
+And sayfayi kapatir.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

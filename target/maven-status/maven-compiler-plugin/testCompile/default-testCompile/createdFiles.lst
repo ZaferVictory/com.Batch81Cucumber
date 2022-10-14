@@ -16,6 +16,7 @@ stepDefinitions\MakasSearchDefinition.class
 runners\Runner.class
 utilities\Driver.class
 pages\PractiseTC07Page.class
+stepDefinitions\Hooks.class
 utilities\ConfigReader.class
 stepDefinitions\HerokuStepDefinition.class
 pages\DataBasePage.class
