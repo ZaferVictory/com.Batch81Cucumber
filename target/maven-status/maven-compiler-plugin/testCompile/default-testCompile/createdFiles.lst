@@ -1,8 +1,10 @@
+stepDefinitions\WebdriverSepdef.class
 stepDefinitions\AmazonStepDefinition.class
 stepDefinitions\PracticeTestPageStepDefs.class
 utilities\ReusableMethods$1.class
 pages\HerOkuHtmlPages.class
 pages\GuruPage.class
+pages\WebPage.class
 pages\HerokuPages.class
 pages\BrcPage.class
 stepDefinitions\HepsiBuradaStepDefinition.class

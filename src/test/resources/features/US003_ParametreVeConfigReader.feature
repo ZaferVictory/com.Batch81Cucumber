@@ -11,7 +11,7 @@ Feature:
     Then kullanici 3 saniye bekler
     When sonuclarin "google" icerdigini test eder
     And sayfayi kapatir
-  @gp1
+
   Scenario: TC03 Parametre kullaniminda ConfigReader Kullanimi
     Given Kullanici "brcUrl" sayfasina gider
     Then kullanici 3 saniye bekler

@@ -14,7 +14,7 @@ Feature: Amazon Search
     And sonuclarin Selenium icerdigini test eder
 
 
-@gp2
+
   Scenario: TC03 kullanıcı amazonda iphone aratır
 
     Given Kullanici amazon sayfasina gider
