@@ -1,29 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="56.683">
-    <testcase classname="US014 Class Work" name="Kullanici ve Url Testi" time="56.108">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="80.124">
+    <testcase classname="US015 kullanıcı giris testi" name="kullanıcı sitede hesap olusturur" time="79.506">
         <system-out>
-            <![CDATA[Given Kullanici "WebUrl" sayfasina gider....................................passed
-When kullanici 3 saniye bekler..............................................passed
-Then kullanici Login Portala kadar asagi iner...............................passed
-When kullanici 3 saniye bekler..............................................passed
-And kullanici Login Portala tiklar..........................................passed
-When kullanici 3 saniye bekler..............................................passed
-And kullanici diger windowa gecer...........................................passed
-When kullanici 3 saniye bekler..............................................passed
-And kullanici "username" kutusuna bilgileri girer...........................passed
-When kullanici 3 saniye bekler..............................................passed
-And kullanici "password" bolumune bilgileri girer...........................passed
-When kullanici 3 saniye bekler..............................................passed
-And kullanici login butonuna basar..........................................passed
-When kullanici 3 saniye bekler..............................................passed
-And kullanici Popup'ta cikan yazinin validation failed oldugunu test eder...passed
-When kullanici 3 saniye bekler..............................................passed
-And kullanici Ok diyerek Popup'i kapatir....................................passed
-When kullanici 3 saniye bekler..............................................passed
-And kullanici ilk sayfaya geri doner........................................passed
-When kullanici 3 saniye bekler..............................................passed
-And kullanici ilk sayfaya donuldugunu test eder.............................passed
-When kullanici 3 saniye bekler..............................................passed
+            <![CDATA[Given Kullanici "autoUrl2" sayfasina gider..................................passed
+And kullanici sign in linkine tiklar........................................passed
+And kullanici Create and account bolumune email adresi girer................passed
+And kullanici Create an Account butonuna basar..............................passed
+And kullanici kisisel bilgilerini ve iletisim bilgilerini girer.............passed
+And kullanici Register butonuna basar.......................................passed
+Then kullanicinin hesap olusturuldugunu dogrulayin..........................passed
 And sayfayi kapatir.........................................................passed
 ]]>
         </system-out>
