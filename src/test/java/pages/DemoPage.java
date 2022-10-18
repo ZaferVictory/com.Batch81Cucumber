@@ -23,5 +23,10 @@ public class DemoPage {
     @FindBy (xpath = "//*[@id='enableAfter']")
     public WebElement enable;
 
+    @FindBy (xpath = "//*[@id='visibleAfter']")
+    public WebElement visible;
+
+
+
 
 }

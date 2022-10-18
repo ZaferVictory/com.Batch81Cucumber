@@ -15,6 +15,7 @@ stepDefinitions\Hooks.class
 stepDefinitions\Practise_ScenarioOutline_Checkbox_dropdown_selection.class
 pages\DataBasePage.class
 pages\googlePage.class
+stepDefinitions\DemoQAStepDefinition.class
 stepDefinitions\WebdriverSepdef.class
 stepDefinitions\AutoStepDefiniton.class
 utilities\ReusableMethods$1.class
