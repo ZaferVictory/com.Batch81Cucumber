@@ -1,6 +1,7 @@
 package stepDefinitions;
 
 import io.cucumber.java.en.And;
+import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.Keys;
@@ -15,6 +16,7 @@ import java.time.Duration;
 public class demostepdefiniton {
     DemoPage demoPage=new DemoPage();
     Actions actions=new Actions(Driver.getDriver());
+    WebDriverWait wait=new WebDriverWait(Driver.getDriver(), Duration.ofSeconds(15));
 
     @When("kullanici Alerts butonuna tiklar")
     public void kullaniciAlertsButonunaTiklar() {
@@ -31,7 +33,7 @@ public class demostepdefiniton {
 
     @And("kullanci Allert’in gorunur olmasini bekler")
     public void kullanciAllertInGorunurOlmasiniBekler() {
-        WebDriverWait wait=new WebDriverWait(Driver.getDriver(), Duration.ofSeconds(15));
+
         wait.until(ExpectedConditions.alertIsPresent());
     }
 
@@ -46,5 +48,16 @@ public class demostepdefiniton {
     public void kullaniciOkDiyerekAlertiKapatir() {
 
         Driver.getDriver().switchTo().alert().accept();
+    }
+
+    @Then("kullanici Will enable bes seconds butonunun enable olmasini bekler")
+    public void kullaniciWillEnableBesSecondsButonununEnableOlmasiniBekler() {
+    wait.until(ExpectedConditions.elementToBeClickable(demoPage.enable));
+    }
+
+    @And("kullanici Will enable bes seconds butonunun enable oldugunu test edir")
+    public void kullaniciWillEnableBesSecondsButonununEnableOldugunuTestEdir() {
+
+        Assert.assertTrue(demoPage.enable.isEnabled());
     }
 }
