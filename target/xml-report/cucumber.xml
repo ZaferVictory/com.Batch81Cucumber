@@ -1,17 +1,51 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="25.691">
-    <testcase classname="Form doldurma" name="Practise formları doldurma" time="25.203">
-        <system-out>
-            <![CDATA[Given Kullanici "https://testpages.herokuapp.com/styled/basic-html-form-test.html" sayfasindadır.passed
-And username "kullanici adi" password "sifre" ve textarea "metin alani" kisimlarini doldurur.passed
-And bir dosya yukler........................................................passed
-And checkbox1 i secer.......................................................passed
-And radio2 yi secer.........................................................passed
-And selection item3 secer...................................................passed
-And dropdown itmem4 secer...................................................passed
-And submite tiklar..........................................................passed
-Then dosyanin yuklendigini dogrular.........................................passed
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="30.373">
+    <testcase classname="US016" name="TC01 alerts and explicitly wait" time="29.875">
+        <failure message="element click intercepted: Element &lt;li class=&quot;btn btn-light &quot; id=&quot;item-1&quot;&gt;...&lt;/li&gt; is not clickable at point (177, 318). Other element would receive the click: &lt;li class=&quot;btn btn-light &quot; id=&quot;item-4&quot;&gt;...&lt;/li&gt;&#10;  (Session info: chrome=106.0.5249.119)&#10;Build info: version: '4.1.2', revision: '9a5a329c5a'&#10;System info: host: 'DESKTOP-MBC1680', ip: '192.168.1.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [167c3b57e01222c6205ef0ed69d8f6ef, clickElement {id=fcebfc2b-0f1b-4a95-8ddc-f5483fb03ff9}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\TR\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:60185}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60185/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (167c3b57e01222c6205ef0ed69d8f6ef)] -&gt; xpath: (//*[@class='btn btn-light '])[11]]&#10;Session ID: 167c3b57e01222c6205ef0ed69d8f6ef" type="org.openqa.selenium.ElementClickInterceptedException">
+            <![CDATA[Given Kullanici "demogaUrl" sayfasina gider.................................passed
+And kullanici 4 saniye bekler...............................................passed
+When kullanici Alerts butonuna tiklar.......................................failed
+And kullanici 4 saniye bekler...............................................skipped
+And kullanici On button click, alert will appear after 5 seconds karsisindaki click me  butonuna basar.skipped
+And kullanici 4 saniye bekler...............................................skipped
+And kullanci Allert’in gorunur olmasini bekler..............................skipped
+And kullanici 4 saniye bekler...............................................skipped
+And kullanici Allert uzerindeki yazinin “This alert appeared after 5 seconds” oldugunu test  eder.skipped
+And kullanici 4 saniye bekler...............................................skipped
+And kullanici ok diyerek alerti kapatir.....................................skipped
+
+StackTrace:
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <li class="btn btn-light " id="item-1">...</li> is not clickable at point (177, 318). Other element would receive the click: <li class="btn btn-light " id="item-4">...</li>
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-MBC1680', ip: '192.168.1.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [167c3b57e01222c6205ef0ed69d8f6ef, clickElement {id=fcebfc2b-0f1b-4a95-8ddc-f5483fb03ff9}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\TR\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:60185}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60185/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (167c3b57e01222c6205ef0ed69d8f6ef)] -> xpath: (//*[@class='btn btn-light '])[11]]
+Session ID: 167c3b57e01222c6205ef0ed69d8f6ef
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy23.click(Unknown Source)
+	at stepDefinitions.demostepdefiniton.kullaniciAlertsButonunaTiklar(demostepdefiniton.java:22)
+	at ✽.kullanici Alerts butonuna tiklar(file:///C:/Users/TR/IdeaProjects/com.Batch81Cucumber/src/test/resources/features/US016_explicitlywait.feature:6)
 ]]>
-        </system-out>
+        </failure>
     </testcase>
 </testsuite>

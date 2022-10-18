@@ -14,9 +14,10 @@ public class DemoPage {
     }
 
 
-    @FindBy(xpath = "//*[@class='header-text'])[3]")
-    public WebElement AlertWe;
+    @FindBy (xpath = "(//*[@class='btn btn-light '])[11]")
+    public WebElement alertWE;
 
-    @FindBy(xpath = "(//*[text()='Alerts'])[2]")
-    public WebElement Alert;
+    @FindBy (xpath = "(//*[text()='Click me'])[2]")
+    public WebElement click;
+
 }
