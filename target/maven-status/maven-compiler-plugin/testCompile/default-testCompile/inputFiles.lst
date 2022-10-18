@@ -1,5 +1,6 @@
 C:\Users\TR\IdeaProjects\com.Batch81Cucumber\src\test\java\pages\googlePage.java
 C:\Users\TR\IdeaProjects\com.Batch81Cucumber\src\test\java\stepDefinitions\DataBaseOutline.java
+C:\Users\TR\IdeaProjects\com.Batch81Cucumber\src\test\java\stepDefinitions\Practise_ScenarioOutline_Checkbox_dropdown_selection.java
 C:\Users\TR\IdeaProjects\com.Batch81Cucumber\src\test\java\stepDefinitions\MakasSearchDefinition.java
 C:\Users\TR\IdeaProjects\com.Batch81Cucumber\src\test\java\pages\HerokuPages.java
 C:\Users\TR\IdeaProjects\com.Batch81Cucumber\src\test\java\stepDefinitions\PracticeAmazonstepDef.java
@@ -10,6 +11,7 @@ C:\Users\TR\IdeaProjects\com.Batch81Cucumber\src\test\java\pages\DataBasePage.ja
 C:\Users\TR\IdeaProjects\com.Batch81Cucumber\src\test\java\utilities\Driver.java
 C:\Users\TR\IdeaProjects\com.Batch81Cucumber\src\test\java\stepDefinitions\BlueRentaCarStepDefinition.java
 C:\Users\TR\IdeaProjects\com.Batch81Cucumber\src\test\java\runners\Runner.java
+C:\Users\TR\IdeaProjects\com.Batch81Cucumber\src\test\java\stepDefinitions\demostepdefiniton.java
 C:\Users\TR\IdeaProjects\com.Batch81Cucumber\src\test\java\stepDefinitions\GuruStepDefinition.java
 C:\Users\TR\IdeaProjects\com.Batch81Cucumber\src\test\java\utilities\ReusableMethods.java
 C:\Users\TR\IdeaProjects\com.Batch81Cucumber\src\test\java\utilities\ConfigReader.java
@@ -18,7 +20,9 @@ C:\Users\TR\IdeaProjects\com.Batch81Cucumber\src\test\java\pages\AmazonPage.java
 C:\Users\TR\IdeaProjects\com.Batch81Cucumber\src\test\java\stepDefinitions\WebdriverSepdef.java
 C:\Users\TR\IdeaProjects\com.Batch81Cucumber\src\test\java\pages\BrcPage.java
 C:\Users\TR\IdeaProjects\com.Batch81Cucumber\src\test\java\stepDefinitions\Practise_TC_07steps.java
+C:\Users\TR\IdeaProjects\com.Batch81Cucumber\src\test\java\pages\DemoPage.java
 C:\Users\TR\IdeaProjects\com.Batch81Cucumber\src\test\java\stepDefinitions\HepsiBuradaStepDefinition.java
+C:\Users\TR\IdeaProjects\com.Batch81Cucumber\src\test\java\pages\PractiseFormPage.java
 C:\Users\TR\IdeaProjects\com.Batch81Cucumber\src\test\java\pages\WebPage.java
 C:\Users\TR\IdeaProjects\com.Batch81Cucumber\src\test\java\stepDefinitions\AutoStepDefiniton.java
 C:\Users\TR\IdeaProjects\com.Batch81Cucumber\src\test\java\stepDefinitions\AmazonStepDefinition.java

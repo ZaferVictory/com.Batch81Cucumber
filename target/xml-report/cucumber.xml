@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="80.124">
-    <testcase classname="US015 kullanıcı giris testi" name="kullanıcı sitede hesap olusturur" time="79.506">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="25.691">
+    <testcase classname="Form doldurma" name="Practise formları doldurma" time="25.203">
         <system-out>
-            <![CDATA[Given Kullanici "autoUrl2" sayfasina gider..................................passed
-And kullanici sign in linkine tiklar........................................passed
-And kullanici Create and account bolumune email adresi girer................passed
-And kullanici Create an Account butonuna basar..............................passed
-And kullanici kisisel bilgilerini ve iletisim bilgilerini girer.............passed
-And kullanici Register butonuna basar.......................................passed
-Then kullanicinin hesap olusturuldugunu dogrulayin..........................passed
-And sayfayi kapatir.........................................................passed
+            <![CDATA[Given Kullanici "https://testpages.herokuapp.com/styled/basic-html-form-test.html" sayfasindadır.passed
+And username "kullanici adi" password "sifre" ve textarea "metin alani" kisimlarini doldurur.passed
+And bir dosya yukler........................................................passed
+And checkbox1 i secer.......................................................passed
+And radio2 yi secer.........................................................passed
+And selection item3 secer...................................................passed
+And dropdown itmem4 secer...................................................passed
+And submite tiklar..........................................................passed
+Then dosyanin yuklendigini dogrular.........................................passed
 ]]>
         </system-out>
     </testcase>
