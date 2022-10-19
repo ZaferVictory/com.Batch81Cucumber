@@ -11,6 +11,7 @@ pages\AmazonPage.class
 stepDefinitions\Practise_TC_07steps.class
 runners\Runner.class
 utilities\Driver.class
+pages\PractiseNagatifTestPage.class
 stepDefinitions\Hooks.class
 stepDefinitions\Practise_ScenarioOutline_Checkbox_dropdown_selection.class
 pages\DataBasePage.class
@@ -27,6 +28,7 @@ stepDefinitions\DataBaseOutline.class
 utilities\ReusableMethods.class
 stepDefinitions\MakasSearchDefinition.class
 pages\PractiseTC07Page.class
+stepDefinitions\PractiseNagatifeTest.class
 utilities\ConfigReader.class
 stepDefinitions\HerokuStepDefinition.class
 pages\autoPage.class

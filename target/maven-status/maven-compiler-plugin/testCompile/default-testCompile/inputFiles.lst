@@ -1,4 +1,5 @@
 C:\Users\TR\IdeaProjects\com.Batch81Cucumber\src\test\java\pages\googlePage.java
+C:\Users\TR\IdeaProjects\com.Batch81Cucumber\src\test\java\stepDefinitions\PractiseNagatifeTest.java
 C:\Users\TR\IdeaProjects\com.Batch81Cucumber\src\test\java\stepDefinitions\DataBaseOutline.java
 C:\Users\TR\IdeaProjects\com.Batch81Cucumber\src\test\java\stepDefinitions\Practise_ScenarioOutline_Checkbox_dropdown_selection.java
 C:\Users\TR\IdeaProjects\com.Batch81Cucumber\src\test\java\stepDefinitions\MakasSearchDefinition.java
@@ -13,6 +14,7 @@ C:\Users\TR\IdeaProjects\com.Batch81Cucumber\src\test\java\stepDefinitions\BlueR
 C:\Users\TR\IdeaProjects\com.Batch81Cucumber\src\test\java\runners\Runner.java
 C:\Users\TR\IdeaProjects\com.Batch81Cucumber\src\test\java\stepDefinitions\demostepdefiniton.java
 C:\Users\TR\IdeaProjects\com.Batch81Cucumber\src\test\java\stepDefinitions\GuruStepDefinition.java
+C:\Users\TR\IdeaProjects\com.Batch81Cucumber\src\test\java\pages\PractiseNagatifTestPage.java
 C:\Users\TR\IdeaProjects\com.Batch81Cucumber\src\test\java\utilities\ReusableMethods.java
 C:\Users\TR\IdeaProjects\com.Batch81Cucumber\src\test\java\utilities\ConfigReader.java
 C:\Users\TR\IdeaProjects\com.Batch81Cucumber\src\test\java\stepDefinitions\Hooks.java
