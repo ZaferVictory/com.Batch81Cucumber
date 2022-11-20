@@ -6,6 +6,7 @@ pages\HerokuPages.class
 pages\PractiseFormPage.class
 stepDefinitions\HepsiBuradaStepDefinition.class
 stepDefinitions\PracticeAmazonstepDef.class
+runners\RunnerGrid.class
 stepDefinitions\demostepdefiniton.class
 pages\AmazonPage.class
 stepDefinitions\Practise_TC_07steps.class
@@ -24,6 +25,7 @@ pages\HerOkuHtmlPages.class
 pages\GuruPage.class
 pages\BrcPage.class
 stepDefinitions\BlueRentaCarStepDefinition.class
+stepDefinitions\GridStepDefs.class
 stepDefinitions\DataBaseOutline.class
 utilities\ReusableMethods.class
 stepDefinitions\MakasSearchDefinition.class
